@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    padding: 40px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subMenu1 {
+    display: inline-block;
+    
+    padding-left: 50px;
+}
+
+.subMenu2 {
+    display: inline-block;
+}
+
+.exploreContent a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.hireContent a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.exploreContent {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #c5c5c5;
+    border-radius: 10px;
+}
+
+.hireContent {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #c5c5c5;
+    border-radius: 10px;
+}
+
+.subMenu1:hover .exploreContent {
+    display: block;
+}
+
+.subMenu2:hover .hireContent {
+    display: block;
+}
+
+.nav1 img {
+    width: 100px;
+}
+
+.nav1 button {
+    cursor: pointer;
+    padding: 10px 22px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.nav2 button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+}
+
+.nav2 button:first-child {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+}
+
+/* MAIN SECTION/HERO SECTION */
+
